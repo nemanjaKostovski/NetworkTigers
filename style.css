@@ -1,0 +1,188 @@
+/* Reset default styles */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* Set up a basic font and background color */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+/* Style the header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+}
+header h1 {
+  margin: 0;
+}
+/* Style the navigation menu */
+nav {
+  background-color: #ccc;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline-block;
+}
+nav a {
+  color: #333;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  display: block;
+}
+nav a:hover {
+  background-color: #666;
+  color: #fff;
+}
+/* Style the main content area */
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* Style the sections */
+section {
+  padding: 2em;
+}
+/* Style the "About Us" section */
+#about {
+  background-color: #fff;
+}
+/* Style the "Team" section */
+#team {
+  background-color: #f2f2f2;
+}
+#team .team-member {
+  text-align: center;
+  padding: 2em;
+}
+#team .team-member img {
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 1em;
+}
+/* Style the "Contact Us" section */
+#contact {
+  background-color: #fff;
+}
+#contact form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+#contact label {
+  width: 100%;
+  padding: 1em;
+}
+#contact input,
+#contact textarea {
+  width: 100%;
+  padding: 0.5em;
+  margin-bottom: 1em;
+}
+#contact input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 0.5em 1em;
+  border: none;
+  cursor: pointer;
+}
+#contact input[type="submit"]:hover {
+  background-color: #666;
+}
+/* Style the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
