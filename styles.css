@@ -17,8 +17,6 @@ body {
 header {
   background-color: var(--header-color);
   padding: 10px;
-  margin-left: 1%;
-  margin-right: 1%;
 }
 
 nav {
@@ -56,7 +54,6 @@ a:hover {
 
 /*MAIN*/
 .wrapper {
-  margin-top: 16px;
   width: 40%;
   height: 80vh;
 }
@@ -94,15 +91,10 @@ h1 {
   text-align: center;
   text-decoration: wavy;
 }
-.wrapper2 {
-  margin-top: 16px;
-  width: 60%;
-  height: 80vh;
-}
+
 figure {
   margin: 0;
-  display: inline-block;
-  width: 100%;
+  padding: 0;
 }
 
 figcaption {
@@ -112,21 +104,23 @@ figcaption {
 }
 
 figure img {
-  height: fit-content;
   width: 100%;
 }
 
 main {
-  padding: 20px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 footer {
   background-color: #f0f0f0;
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   text-align: center;
+  position: absolute;
+  width: 100vw;
+  bottom: 0;
 }
 
 /* Media Queries */
